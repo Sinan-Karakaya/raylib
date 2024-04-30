@@ -114,7 +114,7 @@ int main(void)
     UnloadTexture(texScarfyAnim);   // Unload texture
     UnloadImage(imScarfyAnim);      // Unload image (contains all frames)
 
-    CloseWindow();                  // Close window and OpenGL context
+    rlCloseWindow();                  // Close window and OpenGL context
     //--------------------------------------------------------------------------------------
 
     return 0;

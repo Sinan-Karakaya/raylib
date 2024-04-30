@@ -121,7 +121,7 @@ tempor incididunt ut labore et dolore magna aliqua. Nec ullamcorper sit amet ris
 
     // De-Initialization
     //--------------------------------------------------------------------------------------
-    CloseWindow();        // Close window and OpenGL context
+    rlCloseWindow();        // Close window and OpenGL context
     //--------------------------------------------------------------------------------------
 
     return 0;

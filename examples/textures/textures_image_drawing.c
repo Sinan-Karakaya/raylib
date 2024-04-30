@@ -89,7 +89,7 @@ int main(void)
     //--------------------------------------------------------------------------------------
     UnloadTexture(texture);       // Texture unloading
 
-    CloseWindow();                // Close window and OpenGL context
+    rlCloseWindow();                // Close window and OpenGL context
     //--------------------------------------------------------------------------------------
 
     return 0;

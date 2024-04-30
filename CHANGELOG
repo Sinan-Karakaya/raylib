@@ -38,7 +38,7 @@ Detailed changes:
 [rcore] REVIEWED: BeginScissorMode(), identify rendering to texture (#3510) by @gulrak
 [rcore] REVIEWED: Window flags order (#3114) by @lesleyrs
 [rcore] REVIEWED: Full movement for right analog stick (#3095) by @PixelPhobicGames
-[rcore] REVIEWED: Fix Android app freeze after calling CloseWindow() (#3067) by @Bigfoot71
+[rcore] REVIEWED: Fix Android app freeze after calling rlCloseWindow() (#3067) by @Bigfoot71
 [rcore] REVIEWED: Lazy loading of default font used on image drawing (no InitWindow) by @raysan5
 [rcore] REVIEWED: Minor tweaks to raylib events automation system @raysan5
 [rcore] REVIEWED: GetCurrentMonitor() bugfix (#3058) by @hamyyy

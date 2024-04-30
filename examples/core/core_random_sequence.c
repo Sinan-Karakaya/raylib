@@ -104,7 +104,7 @@ int main(void) {
   //--------------------------------------------------------------------------------------
 
   free(rectangles);
-  CloseWindow(); // Close window and OpenGL context
+  rlCloseWindow(); // Close window and OpenGL context
   //--------------------------------------------------------------------------------------
 
   return 0;

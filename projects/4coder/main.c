@@ -33,6 +33,6 @@ int main() {
         EndDrawing();
     }
     
-    CloseWindow();
+    rlCloseWindow();
     return 0;
 }

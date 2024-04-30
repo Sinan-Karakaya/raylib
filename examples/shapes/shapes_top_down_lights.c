@@ -349,7 +349,7 @@ int main(void)
         if (lights[i].active) UnloadRenderTexture(lights[i].mask);
     }
 
-    CloseWindow();        // Close window and OpenGL context
+    rlCloseWindow();        // Close window and OpenGL context
     //--------------------------------------------------------------------------------------
 
     return 0;

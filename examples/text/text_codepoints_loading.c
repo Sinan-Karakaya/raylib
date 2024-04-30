@@ -119,7 +119,7 @@ int main(void)
     //--------------------------------------------------------------------------------------
     UnloadFont(font);     // Unload font
 
-    CloseWindow();        // Close window and OpenGL context
+    rlCloseWindow();        // Close window and OpenGL context
     //--------------------------------------------------------------------------------------
 
     return 0;

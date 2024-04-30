@@ -301,7 +301,7 @@ int main(void)
     UnloadFont(fontAsian);      // Unload font resource
     UnloadFont(fontEmoji);      // Unload font resource
 
-    CloseWindow();              // Close window and OpenGL context
+    rlCloseWindow();              // Close window and OpenGL context
     //--------------------------------------------------------------------------------------
 
     return 0;

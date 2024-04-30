@@ -193,7 +193,7 @@ int main(void)
     UnloadModelAnimations(robotAnimations, animCount);
     UnloadShadowmapRenderTexture(shadowMap);
 
-    CloseWindow();        // Close window and OpenGL context
+    rlCloseWindow();        // Close window and OpenGL context
     //--------------------------------------------------------------------------------------
 
     return 0;

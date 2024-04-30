@@ -10,7 +10,7 @@
                 <Param name="const char *title" />
             </Overload>
         </KeyWord>
-        <KeyWord name="CloseWindow" func="yes">
+        <KeyWord name="rlCloseWindow" func="yes">
             <Overload retVal="void" descr="Close window and unload OpenGL context"></Overload>
         </KeyWord>
         <KeyWord name="WindowShouldClose" func="yes">
@@ -2822,7 +2822,7 @@
                 <Param name="Vector2 size" />
                 <Param name="Vector2 origin" />
                 <Param name="float rotation" />
-                <Param name="0ó¿8± " />
+                <Param name="0ï¿½8ï¿½ " />
             </Overload>
         </KeyWord>
 

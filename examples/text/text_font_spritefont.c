@@ -84,7 +84,7 @@ int main(void)
     UnloadFont(font2);      // Font unloading
     UnloadFont(font3);      // Font unloading
 
-    CloseWindow();          // Close window and OpenGL context
+    rlCloseWindow();          // Close window and OpenGL context
     //--------------------------------------------------------------------------------------
 
     return 0;

@@ -170,7 +170,7 @@ int main(void)
     // Unload equipment model and meshes/material
     for (int i = 0; i < BONE_SOCKETS; i++) UnloadModel(equipModel[i]);
 
-    CloseWindow();              // Close window and OpenGL context
+    rlCloseWindow();              // Close window and OpenGL context
     //--------------------------------------------------------------------------------------
 
     return 0;

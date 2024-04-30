@@ -60,4 +60,7 @@ project "raylib"
     filter { "system:macosx", "files:" .. raylib_dir .. "/src/rglfw.c" }
         compileas "Objective-C"
 
+    filter "system:windows"
+        links { "WinMM" }
+
     filter{}

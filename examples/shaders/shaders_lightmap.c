@@ -165,7 +165,7 @@ int main(void)
     UnloadMesh(mesh);       // Unload the mesh
     UnloadShader(shader);   // Unload shader
 
-    CloseWindow();          // Close window and OpenGL context
+    rlCloseWindow();          // Close window and OpenGL context
     //--------------------------------------------------------------------------------------
 
     return 0;

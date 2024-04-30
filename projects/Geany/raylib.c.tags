@@ -1,7 +1,7 @@
 # format=pipe 
 InitWindow|void|(int width, int height, const char *title);|
 WindowShouldClose|bool|(void);|
-CloseWindow|void|(void);|
+rlCloseWindow|void|(void);|
 IsWindowReady|bool|(void);|
 IsWindowMinimized|bool|(void);|
 IsWindowResized|bool|(void);|

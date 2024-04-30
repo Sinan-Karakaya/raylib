@@ -112,7 +112,7 @@ int main(void)
     // Unload textures data (GPU VRAM)
     for (int i = 0; i < NUM_TEXTURES; i++) UnloadTexture(textures[i]);
 
-    CloseWindow();                // Close window and OpenGL context
+    rlCloseWindow();                // Close window and OpenGL context
     //--------------------------------------------------------------------------------------
 
     return 0;

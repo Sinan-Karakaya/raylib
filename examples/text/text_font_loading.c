@@ -91,7 +91,7 @@ int main(void)
     UnloadFont(fontBm);     // AngelCode Font unloading
     UnloadFont(fontTtf);    // TTF Font unloading
 
-    CloseWindow();          // Close window and OpenGL context
+    rlCloseWindow();          // Close window and OpenGL context
     //--------------------------------------------------------------------------------------
 
     return 0;

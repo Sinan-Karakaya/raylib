@@ -993,8 +993,8 @@ Function 001: InitWindow() (3 input parameters)
   Param[1]: width (type: int)
   Param[2]: height (type: int)
   Param[3]: title (type: const char *)
-Function 002: CloseWindow() (0 input parameters)
-  Name: CloseWindow
+Function 002: rlCloseWindow() (0 input parameters)
+  Name: rlCloseWindow
   Return type: void
   Description: Close window and unload OpenGL context
   No input parameters

@@ -160,7 +160,7 @@ int main(void)
     UnloadRenderTexture(screenCamera1); // Unload render texture
     UnloadRenderTexture(screenCamera2); // Unload render texture
 
-    CloseWindow();                      // Close window and OpenGL context
+    rlCloseWindow();                      // Close window and OpenGL context
     //--------------------------------------------------------------------------------------
 
     return 0;
